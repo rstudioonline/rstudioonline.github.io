@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Company</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "VxH0wQqv7SKJzs3Co",
+        });
+      })();
+    </script>
+  </head>
+  <body>
+    <header class="navbar">
+      <nav>
+        <div class="nav-left">
+          <div class="logo"><a href="#home"><img
+            id="logoimage"
+            src="logo 2.png"
+            
+            alt="hii!"
+          /></a></div>
+          <!-- <div class="company-name">Lets create...</div> -->
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#products">PRODUCTS</a></li>
+          <li><a href="#about">ABOUT</a></li>
+        </ul>
+        <a class="btn-contact" href="#contactss">Contact us</a>
+        <div class="hamburger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home" class="full-screen-section">
+      <!-- <video autoplay loop muted playsinline class="bg-video">
+        <source src="bg1.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video> -->
+      <div class="main-container">
+        <div class="hero">
+          <h1>WELCOME TO R. STUDIO</h1>
+        </div>
+        <div class="cards-container">
+          <div class="card" style="background-color: rgb(228, 137, 187)"><img src="products\1.png" alt="Single sided ID card"  style="max-width: 100%; max-height: 100%; object-fit: contain;"/></div>
+          <div class="card" style="background-color: rgb(202, 235, 235)"><img src="products\2.png" alt="Single sided ID card"  style="max-width: 100%; max-height: 100%; object-fit: contain;"/></div>
+          <div class="card"style="background-color: rgb(42, 63, 20)">    <img src="products\3.png" alt="Single sided ID card"  style="max-width: 100%; max-height: 100%; object-fit: contain;"/></div>
+          <div class="card" style="background-color: rgb(132, 171, 91)"> <img src="products\4.png" alt="Single sided ID card"  style="max-width: 100%; max-height: 100%; object-fit: contain;"/>  </div>
+          <div class="card" style="background-color: rgb(225, 255, 0)">  <img src="products\5.png" alt="Single sided ID card"  style="max-width: 100%; max-height: 100%; object-fit: contain;"/>         </div>
+          <div class="card" style="background-color: rgb(138, 98, 195)"> <img src="products\6.png" alt="Single sided ID card"  style="max-width: 100%; max-height: 100%; object-fit: contain;"/>          </div>
+          <div class="card" style="background-color: rgb(255, 0, 144)">  <img src="products\7.png" alt="Single sided ID card"  style="max-width: 100%; max-height: 100%; object-fit: contain;"/>          </div>
+          <div class="card" style="background-color: rgb(92, 20, 20)">   <img src="products\8.png" alt="Single sided ID card"  style="max-width: 100%; max-height: 100%; object-fit: contain;"/></div>        </div>        <div class="content">
+          <p>
+            We offer a range of products .Want to browse our catalogue. <br />
+            <a href="#products" class="explore-more">Explore More</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="products full-page-section">
+      <h2>~ OUR PRODUCTS ~</h2>
+      <div class="product-container">
+        <div class="product-video">
+          <video id="productVideo" width="720" height="1280">
+            <source src="video 1080p.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="product-grid">
+          <div class="product-item">
+            <div class="product-card">
+              <div class="card-face card-face-front" style="background-color: rgb(228, 137, 187)">
+                <img src="products\1.png" alt="Single sided ID card" />
+              </div>
+              <div  class="card-face card-face-back" style="background-color: rgb(228, 137, 187);color: white;">
+                <h3>IDENTITY CARD</h3>
+                <p> Classic id card
+                  with <br>single/double sided print</p>
+                <p style="font-weight: 1000;">tough-durable-finish</p>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-card">
+              <div class="card-face card-face-front" style="background-color: rgb(202, 235, 235)">
+                <img src="products\2.png" alt="double sided ID card" />
+              </div>
+              <div class="card-face card-face-back" style="background-color: rgb(202, 235, 235);color: rgb(0, 0, 0);">
+                <h3>LANYARD (BELT)</h3>
+                <p>We offer different kinds of lanyards. <br> Lanyards can be printed with your <br>requirement if needed</p>
+                <p style="font-weight: 1000; font-size: 1em;">strechable-perfectly.sized</p>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-card">
+              <div class="card-face card-face-front" style="background-color: rgb(42, 63, 20)">
+                <img src="products\3.png" alt="single side transparent ID card" />
+              </div>
+              <div class="card-face card-face-back" style="background-color: rgb(42, 63, 20);color: white;">
+                <h3>PVC CARD</h3>
+                <p>Durable and top quality <BR>pvc cards with high <br>quality prints on it.</p>
+                <p style="font-weight: 1000;">durable-elegant-shiny</p>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-card">
+              <div class="card-face card-face-front" style="background-color: rgb(132, 171, 91)"> 
+                <img src="products\4.png" alt="double side transparent ID card" />
+              </div>
+              <div class="card-face card-face-back" style="background-color: rgb(132, 171, 91);color: white;">
+                <h3>BUSINESS <br>CARDS</h3>
+                <p>Your First Impression, <br>Perfectly Crafted ,<br>Tailored Excellence </p>
+                <p style="font-weight: 1000;">crafted-printed-delivered</p>
+              </div>
+            </div>
+          </div>
+          <div class="product-item water-effect">
+            <div class="product-card">
+              <div class="card-face card-face-front" style="background-color: rgb(225, 255, 0)">
+                <img src="products\5.png" alt="Product 5" />
+              </div>
+              <div class="card-face card-face-back" style="background-color: rgb(225, 255, 0); color: rgb(0, 0, 0);">
+                <h3>BANNER'S / POSTER'S</h3>
+                <p>Bold Messages, Stunning Designs.<br>Designs That Draw Crowds</p>
+                <p style="font-weight: 1000; font-size: 1em;">bold.writting-stunning.design</p>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-card">
+              <div class="card-face card-face-front" class="card" style="background-color: rgb(138, 98, 195)">
+                <img src="products\6.png" alt="Product 6" />
+              </div>
+              <div class="card-face card-face-back" style="background-color: rgb(138, 98, 195); color: white;">
+                <h3>PRINT</h3>
+                <p>Quality printing with <br>excellent printers.<br>Flawless Prints, <br>Unmatched Excellence!</p>
+                <p style="font-weight: 1000;">quality-finish-prints</p>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-card">
+              <div class="card-face card-face-front" style="background-color: rgb(255, 0, 144)">
+                <img src="products\7.png" alt="Product 7" />
+              </div>
+              <div class="card-face card-face-back" style="background-color: rgb(255, 0, 144) ;color: rgb(255, 255, 255);">
+                <h3>PHOTO FRAMES</h3>
+                <p> Timeless Elegance,<br> Perfectly Framed.<br>Durable material with <br>new edge design</p>
+                <p style="font-weight: 1000;">perfectly-captured-framed</p>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-card">
+              <div class="card-face card-face-front" style="background-color: rgb(92, 20, 20)">
+                <img src="products\8.png" alt="Product 8" />
+              </div>
+              <div class="card-face card-face-back" style="background-color: rgb(92, 20, 20); color: rgb(255, 255, 255);">
+                <h3>XEROXING</h3>
+                <p>High quality xerox. <br>Precision Prints, <br>Perfect Every Time!</p>
+                <p style="font-weight: 1000;">copy-paste</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="brochure.pdf" download="Rstudio Brochure" id="btn-download-btn">Download Brochure</a>
+    </section>
+
+    <section id="about" class="full-screen-section">
+      <h2 class="typewriter">About us</h2>
+      <h4 style="margin-top: 0px;"> since 1996</h4>
+      <div class="about-content">
+          <div class="about-description">
+              <p>
+                      <strong style="font-size: 1.2em;">RANI STUDIO</strong> has been a trusted provider of diverse services since 11th jan, 1996.<br />
+                      Our journey began with a passion for photography, documenting cherished moments for our clients. 
+                      Overtime, we broadened our offerings to include comprehensive ID card solutions.<br />
+                      Today, we're proud to offer a complete range of services, including photography, ID card creation, 
+                      xeroxing, printing, professional editing, and much more.<br> 
+                      We are committed to delivering exceptional quality and convenience to our community.<br>
+                      <br><br><strong>Visit R. STUDIO Today & 
+
+Experience the difference of exceptional service and quality at R. STUDIO. 
+Contact us today to learn more about our services and how we can help you capture your memories and create professional ID cards.
+</strong></p>
+          </div>
+          <div class="team-photos">
+            <div class="team-member">
+                <img src="AG.jpg" alt="Avijit Ghosh" />
+                <h3 >Avijit Ghosh</h3>
+                <p>Founder</p>
+                <p>
+                  Avijit oversees daily operations, delivering personalized care and top-quality solutions to every client
+                </p>
+            </div>
+              <div class="team-member">
+                  <img src="sushil.jpg" alt="sushil kr ram" />
+                  <h3>Sushil Kr. Ram</h3>
+                  <!-- <p>Lead</p> -->
+                  <p>
+                    With his deep customer service expertise, Sushil creates tailored designs that meet every need with precision, reflecting our commitment to excellence
+                  </p>
+              </div>
+          </div>
+      </div>
+  </section>
+
+    <section id="contactss" class="contact-container" class="full-screen-section">
+      <h1>Contact Us</h1>
+      <div class="contact-details">
+        <div class="company-info">
+          <!-- <h3>Details</h3> -->
+          <p>
+            <strong>Address:</strong>
+            <span>A.T. Road chabua, Dibrugarh, <br />Assam, 786184, INDIA</span>
+          </p>
+          <p><strong>Phone:</strong> <span>+91 8638556770  /<br>+91 6001707250</span></p>
+          <p>
+            <strong>Email:</strong> <span>dobusiness.rstudio@gmail.com</span>
+          </p>
+      
+          <p>
+            <strong>Business Hours:</strong> Monday - Sunday , 9:00 AM - 7:00 PM
+            (IST)
+          </p>
+        </div>
+      </div>
+      <h2 >WANT TO SEND US A MESSAGE ? </h2>
+      <div class="contact-form-container">
+        <div class="contact-form" id="contactFormGrid">
+          <form id="contactForm">
+            <input type="text" id="name" name="name" value="Name" />
+            <input type="email" id="email" name="email" value="Email" />
+            <input type="tel" id="phone" name="phone" value="Phone Number" />
+            <textarea id="message" name="message" rows="5">Message</textarea>
+            <button type="submit" id="sendMessageButton">Send Message</button>
+          </form>
+        </div>
+        <div
+          id="messageSentDisplay"
+          class="message-sent-display"
+          style="display: none">
+          <div class="message-sent-content">
+            <span class="message-sent-tick">&#10004;</span>
+            <p class="message-sent-text">Message Sent, Thank You!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+    <script src="script.js"></script>
+  </body>
+</html>
