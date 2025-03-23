@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const companyAddress = document.querySelector('.company-info p:nth-child(1)');
     const phoneNumber = document.querySelector('.company-info p:nth-child(2)');
     const emailAddress = document.querySelector('.company-info p:nth-child(3)');
-    const helpemailAddress = document.querySelector('.company-info p:nth-child(4)');
+    
 
     if (phoneNumber) {
         phoneNumber.style.cursor = 'pointer';
@@ -97,13 +97,7 @@ document.addEventListener('DOMContentLoaded', function() {
             window.location.href = `mailto:${email}`;
         });
     }
-    if (helpemailAddress) {
-        helpemailAddress.style.cursor = 'pointer';
-        helpemailAddress.addEventListener('click', function() {
-            const email = this.textContent;
-            window.location.href = `mailto:${email}`;
-        });
-    }
+    
 
     if (companyAddress) {
         companyAddress.style.cursor = 'pointer';
