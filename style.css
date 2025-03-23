@@ -204,14 +204,7 @@ nav .btn-contact {
 }
 
 
-.card:nth-child(1) { transform: rotate(2deg) translateX(5px) translateY(-3px);; z-index: 1; }
-.card:nth-child(2) { transform: rotate(4deg) translateX(-7px) translateY(2px);; z-index: 2; }
-.card:nth-child(3) { transform: rotate(6deg) translateX(3px) translateY(4px);; z-index: 3; }
-.card:nth-child(4) { transform: rotate(8deg) translateX(-5px) translateY(-1px);; z-index: 4; }
-.card:nth-child(5) { transform: rotate(-2deg) translateX(8px) translateY(-2px);; z-index: 5; }
-.card:nth-child(6) { transform: rotate(-4deg) translateX(-2px) translateY(3px);; z-index: 6; }
-.card:nth-child(7) { transform: rotate(-6deg) translateX(6px) translateY(1px);; z-index: 7; }
-.card:nth-child(8) { transform: rotate(-8deg) translateX(-9px) translateY(-4px);; z-index: 8; }
+
 
 
 
@@ -727,7 +720,7 @@ nav .btn-contact {
 }
 
 
-@media (min-width: 1280px) { /* Styles for desktop */
+@media (min-width: 1280px) and (min-height: 720px){ /* Styles for desktop */
     .hero {
         margin-bottom: 300px; /* Increased margin for desktop */
     }
@@ -746,6 +739,14 @@ nav .btn-contact {
     from, to { border-color: transparent }
     50% { border-color: orange; }
   }
+.card:nth-child(1) { transform: rotate(2deg) translateX(5px) translateY(-3px);; z-index: 1; }
+.card:nth-child(2) { transform: rotate(4deg) translateX(-7px) translateY(2px);; z-index: 2; }
+.card:nth-child(3) { transform: rotate(6deg) translateX(3px) translateY(4px);; z-index: 3; }
+.card:nth-child(4) { transform: rotate(8deg) translateX(-5px) translateY(-1px);; z-index: 4; }
+.card:nth-child(5) { transform: rotate(-2deg) translateX(8px) translateY(-2px);; z-index: 5; }
+.card:nth-child(6) { transform: rotate(-4deg) translateX(-2px) translateY(3px);; z-index: 6; }
+.card:nth-child(7) { transform: rotate(-6deg) translateX(6px) translateY(1px);; z-index: 7; }
+.card:nth-child(8) { transform: rotate(-8deg) translateX(-9px) translateY(-4px);; z-index: 8; }
     
     
 }
