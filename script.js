@@ -93,11 +93,11 @@ document.addEventListener('DOMContentLoaded', function() {
     if (emailAddress) {
         emailAddress.style.cursor = 'pointer';
         emailAddress.addEventListener('click', function() {
-            const email = this.textContent ;
+            const email = this.textContent;
             window.location.href = `mailto:${email}`;
         });
     }
-    
+   
 
     if (companyAddress) {
         companyAddress.style.cursor = 'pointer';
@@ -349,9 +349,6 @@ document.addEventListener('DOMContentLoaded', function () {
     // Also check on window scroll
     window.addEventListener('scroll', checkVideoVisibility, { passive: true });
 });
-
-
-
 
 
 
