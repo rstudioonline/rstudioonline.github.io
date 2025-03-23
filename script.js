@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (emailAddress) {
         emailAddress.style.cursor = 'pointer';
         emailAddress.addEventListener('click', function() {
-            const email = 'dobusiness.rstudio@gmail.com';
+            const email = "dobusiness.rstudio@gmail.com" ;
             window.location.href = `mailto:${email}`;
         });
     }
